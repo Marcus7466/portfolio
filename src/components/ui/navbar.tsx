@@ -5,6 +5,7 @@ import { JSX, SVGProps } from "react";
 import { getJSONData } from "@/lib/serverUtils";
 import Image from "next/image";
 import ThemeToggler from "./themeToggler";
+import { DownloadIcon } from "@radix-ui/react-icons";
 import { withBasePath } from "@/lib/utils";
 
 export default async function Navbar() {
@@ -21,7 +22,7 @@ export default async function Navbar() {
             alt={"devfolio logo"}
           />
         </Link>
-        <nav className="hidden space-x-4 lg:flex">
+        <nav className="hidden items-center space-x-4 lg:flex">
           <ThemeToggler />
           {data.visual.navbar.links.map((item) => (
             <Link
@@ -32,6 +33,12 @@ export default async function Navbar() {
               {item.label}
             </Link>
           ))}
+          <Link href={withBasePath("/cv.pdf")} download>
+            <Button variant="outline" size="sm">
+              <DownloadIcon className="h-4 w-4 mr-2" />
+              CV
+            </Button>
+          </Link>
         </nav>
         <Sheet>
           <SheetTrigger asChild>
@@ -52,6 +59,12 @@ export default async function Navbar() {
                   {item.label}
                 </Link>
               ))}
+              <Link href={withBasePath("/cv.pdf")} download>
+                <Button variant="outline" className="w-full">
+                  <DownloadIcon className="h-4 w-4 mr-2" />
+                  Télécharger le CV
+                </Button>
+              </Link>
             </div>
           </SheetContent>
         </Sheet>
