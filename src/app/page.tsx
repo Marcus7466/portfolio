@@ -34,7 +34,7 @@ export default async function Home() {
       {sections.banner && (
         <section
           id="home"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
           <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
             <div className="w-1/2 mx-auto lg:w-1/3">
@@ -108,9 +108,9 @@ export default async function Home() {
       {sections.experience && (
         <section
           id="experience"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
-          <h2 className="font-bold text-3xl md:text-5xl mb-12">
+          <h2 className="font-bold text-3xl md:text-5xl mb-8">
             Expérience professionnelle
           </h2>
           <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-10">
@@ -156,9 +156,9 @@ export default async function Home() {
       {/* Skills Section */}
       <section
         id="skills"
-        className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+        className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
       >
-        <h2 className="font-bold text-3xl md:text-5xl mb-12">Compétences</h2>
+        <h2 className="font-bold text-3xl md:text-5xl mb-8">Compétences</h2>
         <div className="grid gap-6">
           {data.skills.frameworks.length > 0 && (
             <div>
@@ -203,9 +203,9 @@ export default async function Home() {
       {sections.education && (
         <section
           id="education"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
-          <h2 className="font-bold text-3xl md:text-5xl mb-12">Formation</h2>
+          <h2 className="font-bold text-3xl md:text-5xl mb-8">Formation</h2>
           <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-10">
             {data.education.map((ed) => (
               <div key={ed.id} className="grid gap-1 relative">
@@ -229,9 +229,9 @@ export default async function Home() {
       {sections.testimonial && (
         <section
           id="testimonials"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
-          <h2 className="font-bold text-3xl md:text-5xl mb-12">Témoignages</h2>
+          <h2 className="font-bold text-3xl md:text-5xl mb-8">Témoignages</h2>
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             {data.testimonials.map((t) => (
@@ -265,9 +265,9 @@ export default async function Home() {
       {sections.project && (
         <section
           id="projects"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
-          <h2 className="font-bold text-3xl md:text-5xl mb-12">Projets réalisés</h2>
+          <h2 className="font-bold text-3xl md:text-5xl mb-8">Projets réalisés</h2>
           <div className="grid grid-cols-1 gap-4 lg:gap-6">
             {data.projects.map((project) => (
               <Card key={project.title} className="flex flex-col lg:flex-row">
@@ -303,16 +303,7 @@ export default async function Home() {
                       >
                         <Button size="sm">
                           <GlobeIcon className="h-3 w-3 mr-2" />
-                          Démo
-                        </Button>
-                      </Link>
-                      <Link
-                        href={project.code_repo_url}
-                        prefetch={false}
-                      >
-                        <Button size="sm" variant="outline">
-                          <GitHubLogoIcon className="h-3 w-3 mr-2" />
-                          Code source
+                          Voir
                         </Button>
                       </Link>
                     </div>
@@ -328,10 +319,10 @@ export default async function Home() {
       {sections.contact && (
         <section
           id="contact"
-          className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+          className="container max-w-5xl mx-auto py-8 md:py-10 lg:py-12"
         >
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            <Card className="p-6">
+            <Card className="p-12">
               <CardHeader>
                 <CardTitle>Me contacter</CardTitle>
               </CardHeader>
