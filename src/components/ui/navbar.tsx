@@ -33,12 +33,12 @@ export default async function Navbar() {
               {item.label}
             </Link>
           ))}
-          <Link href={withBasePath("/cv.pdf")} download>
+          <a href={withBasePath("/cv.pdf")} download>
             <Button variant="outline" size="sm">
               <DownloadIcon className="h-4 w-4 mr-2" />
               CV
             </Button>
-          </Link>
+          </a>
         </nav>
         <Sheet>
           <SheetTrigger asChild>
@@ -59,12 +59,12 @@ export default async function Navbar() {
                   {item.label}
                 </Link>
               ))}
-              <Link href={withBasePath("/cv.pdf")} download>
+              <a href={withBasePath("/cv.pdf")} download>
                 <Button variant="outline" className="w-full">
                   <DownloadIcon className="h-4 w-4 mr-2" />
                   Télécharger le CV
                 </Button>
-              </Link>
+              </a>
             </div>
           </SheetContent>
         </Sheet>
