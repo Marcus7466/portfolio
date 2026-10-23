@@ -1,0 +1,161 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Expérience",
+          "path": "#experience"
+        },
+        {
+          "label": "Formation",
+          "path": "#education"
+        },
+        {
+          "label": "Compétences",
+          "path": "#skills"
+        },
+        {
+          "label": "Projets",
+          "path": "#projects"
+        },
+        {
+          "label": "Contact",
+          "path": "#contact"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": false,
+        "contact": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "OUEDRAOGO Y. E. Marcus",
+    "title": "Développeur Informatique",
+    "location": "Bonam, Ouagadougou",
+    "bio": "En tant que développeur passionné par la programmation, mon parcours se focalise sur l'univers dynamique du développement web et mobile, les technologies backend, frontend et la conception de logiciels."
+  },
+  "contactInfo": {
+    "email": "yamyidgri.odg@gmail.com",
+    "phone": "+226 73 08 99 91 / +226 74 66 00 45",
+    "linkedin": "https://linkedin.com/in/marcusodg7466",
+    "github": "https://github.com/Marcus848",
+    "twitter": "#!",
+    "website": "https://gitlab.com/Marcus7466"
+  },
+  "skills": {
+    "languages": [
+      "JAVA"
+    ],
+    "frameworks": [
+      "Angular",
+      "Spring Boot (JAVA)",
+      "Laravel",
+      "Flutter"
+    ],
+    "databases": [],
+    "tools": [
+      "Développement web et mobile",
+      "Bases de données relationnelles et non relationnelles",
+      "Conception et architecture de logiciels",
+      "Sécurité informatique et protection des données",
+      "Réseaux et télécommunication",
+      "Maintenance en informatique"
+    ]
+  },
+  "projects": [],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Conseil Burkinabé des Chargeurs (CBC)",
+      "companyWebsite": "#!",
+      "role": "Stagiaire en Informatique",
+      "startDate": "26 Octobre 2025",
+      "endDate": "25 Janvier 2026",
+      "technologies": [
+        "Frontend",
+        "Backend"
+      ],
+      "keyResponsibilities": [
+        "Contribution au développement d'applications web innovantes en utilisant des technologies frontend et backend modernes.",
+        "Maintenance en informatique."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Ministère des Sports, de la Jeunesse et de l’Emploi (MSJE)",
+      "companyWebsite": "#!",
+      "role": "Stagiaire en Informatique",
+      "startDate": "2 Septembre 2024",
+      "endDate": "2 Décembre 2024",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Stage en informatique au sein du ministère."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Ministère des Sports, de la Jeunesse et de l’Emploi (MSJE)",
+      "companyWebsite": "#!",
+      "role": "Stagiaire en Informatique",
+      "startDate": "15 Juin 2026",
+      "endDate": "15 Septembre 2026",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Participation à la conception et à l'implémentation de fonctionnalités clés pour les produits logiciels du ministère."
+      ]
+    },
+    {
+      "id": "4",
+      "company": "DATASYS",
+      "companyWebsite": "#!",
+      "role": "Stagiaire en Informatique",
+      "startDate": "26 Février 2024",
+      "endDate": "26 Avril 2024",
+      "technologies": [],
+      "keyResponsibilities": [
+        "Participation à résoudre les problèmes techniques et améliorer les performances des applications.",
+        "Dépannage en réseaux télécommunication et maintenance informatique."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Université Aube Nouvelle",
+      "degree": "Diplôme d’ingénieur de travaux en informatique",
+      "description": "Option : technologie du génie informatique",
+      "startDate": "2021",
+      "endDate": "2024"
+    },
+    {
+      "id": "2",
+      "institution": "Université Aube Nouvelle",
+      "degree": "Attestation de niveau BAC + 2 en deuxième année de Licence en technologie du Génie informatique",
+      "description": "",
+      "startDate": "2022",
+      "endDate": "2023"
+    },
+    {
+      "id": "3",
+      "institution": "Complexe Scolaire CEFISE BENAJA",
+      "degree": "Baccalauréat série F3",
+      "description": "Cissin, Ouagadougou",
+      "startDate": "2020",
+      "endDate": "2021"
+    }
+  ],
+  "testimonials": [],
+  "certifications": [],
+  "hobbies": [
+    "Codage créatif",
+    "Musique",
+    "Sport"
+  ]
+}
