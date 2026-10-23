@@ -97,7 +97,7 @@
     {
       "id": "1",
       "company": "Conseil Burkinabé des Chargeurs (CBC)",
-      "companyWebsite": "#!",
+      "companyWebsite": "http://cbcbf.org",
       "role": "Stagiaire en Informatique",
       "startDate": "26 Octobre 2025",
       "endDate": "25 Janvier 2026",
@@ -113,7 +113,7 @@
     {
       "id": "2",
       "company": "Ministère des Sports, de la Jeunesse et de l’Emploi (MSJE)",
-      "companyWebsite": "#!",
+      "companyWebsite": "https://www.sports.gov.bf/",
       "role": "Stagiaire en Informatique",
       "startDate": "2 Septembre 2024",
       "endDate": "2 Décembre 2024",
@@ -125,7 +125,7 @@
     {
       "id": "3",
       "company": "Ministère des Sports, de la Jeunesse et de l’Emploi (MSJE)",
-      "companyWebsite": "#!",
+      "companyWebsite": "https://www.sports.gov.bf/",
       "role": "Stagiaire en Informatique",
       "startDate": "15 Juin 2026",
       "endDate": "15 Septembre 2026",
@@ -137,7 +137,7 @@
     {
       "id": "4",
       "company": "DATASYS",
-      "companyWebsite": "#!",
+      "companyWebsite": "http://www.datasys.bf/",
       "role": "Stagiaire en Informatique",
       "startDate": "26 Février 2024",
       "endDate": "26 Avril 2024",
