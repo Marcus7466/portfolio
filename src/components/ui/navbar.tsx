@@ -5,6 +5,7 @@ import { JSX, SVGProps } from "react";
 import { getJSONData } from "@/lib/serverUtils";
 import Image from "next/image";
 import ThemeToggler from "./themeToggler";
+import { withBasePath } from "@/lib/utils";
 
 export default async function Navbar() {
   const data = await getJSONData();
@@ -14,7 +15,7 @@ export default async function Navbar() {
       <div className="container max-w-5xl mx-auto flex h-18 items-center justify-between py-2 px-4 md:px-6">
         <Link href="/" className="flex items-center" prefetch={false}>
           <Image
-            src="/assets/logo.png"
+            src={withBasePath("/assets/logo.png")}
             height={60}
             width={60}
             alt={"devfolio logo"}

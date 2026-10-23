@@ -14,6 +14,9 @@ const nextConfig = {
     },
     basePath,
     assetPrefix: basePath,
+    env: {
+        NEXT_PUBLIC_BASE_PATH: basePath,
+    },
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
 }
 
