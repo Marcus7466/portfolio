@@ -69,7 +69,30 @@
       "Maintenance en informatique"
     ]
   },
-  "projects": [],
+  "projects": [
+    {
+      "title": "E-Licence USSU-BF",
+      "description": "Plateforme de dématérialisation des demandes de licence sportive scolaire : création de compte, demande de licence, validation, paiement en ligne et gestion des établissements engagés.",
+      "technologies": [
+        "Angular",
+        "Spring Boot (Java)"
+      ],
+      "live_url": "https://licence-ussubf.sports.gov.bf/",
+      "code_repo_url": "#!",
+      "cover": "/assets/project_1.jpeg"
+    },
+    {
+      "title": "CNMS - Plateforme de consultation",
+      "description": "Plateforme de prise de rendez-vous et de suivi des consultations médicales au Centre Médico-Sportif (CNMS) du MSJE.",
+      "technologies": [
+        "Angular",
+        "Spring Boot (Java)"
+      ],
+      "live_url": "https://consultation.sports.gov.bf/",
+      "code_repo_url": "#!",
+      "cover": "/assets/project_2.jpeg"
+    }
+  ],
   "workExperience": [
     {
       "id": "1",
