@@ -68,7 +68,7 @@ export default async function Home() {
                   </Button>
                 </Link>
                 <Link
-                  href={data.contactInfo.twitter}
+                  href={data.contactInfo.x}
                   prefetch={false}
                 >
                   <Button variant="secondary" size="icon">
@@ -372,7 +372,7 @@ export default async function Home() {
                       <GitHubLogoIcon className="h-4 w-4" />
                     </Button>
                   </Link>
-                  <Link href={data.contactInfo.twitter} prefetch={false}>
+                  <Link href={data.contactInfo.x} prefetch={false}>
                     <Button variant="secondary" size="icon">
                       <TwitterLogoIcon className="h-4 w-4" />
                     </Button>

@@ -36,7 +36,7 @@ export interface ContactInfo {
   email: string;
   phone: string;
   linkedin: string;
-  twitter: string;
+  x: string;
   github: string;
   website: string;
 }
